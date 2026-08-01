@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Booking Form | Dream Travel & Adventure Agency</title>
+</head>
+
+<body>
+
+    
+    <header>
+        <div class="logo-title">
+            <img src="medias/Logo Dream Travel.jpeg" alt="Dream Travel & Adventure Agency Logo" width="200" loading="lazy" class="logo">
+        </div>
+        <h1>Dream Travel & Adventure Agency</h1>
+
+        <nav>
+            <a href="Index.html">Home</a> |
+            <a href="Destination.html">Destinations</a> |
+            <a href="Tour Packages.html">Tour Packages</a> |
+            <a href="Booking Form.html">Booking</a> |
+            <a href="Gallery.html">Gallery</a> |
+            <a href="multimedia.html">Multimedia</a> |
+            <a href="Testimonials.html">Testimonials</a> |
+            <a href="Contact Us.html">Contact Us</a>
+        </nav>
+
+        <hr>
+
+    </header>
+
+    
+    <main>
+
+        <h2>Travel Booking Form</h2>
+
+        <p>
+            Thank you for choosing Dream Travel & Adventure Agency.
+            Please complete the booking form below. Ensure that all
+            information is correct before submitting your reservation.
+        </p>
+
+        <form>
+
+            
+
+            <fieldset>
+
+                <legend><strong>Personal Information</strong></legend>
+
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname" required><br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone"><br><br>
+
+                <label for="address">Home Address:</label><br>
+                <textarea id="address" rows="4" cols="40"></textarea><br><br>
+
+                <label for="city">City:</label><br>
+                <input type="text" id="city"><br><br>
+
+                <label for="country">Country:</label><br>
+                <input type="text" id="country"><br><br>
+
+            </fieldset>
+
+            <br>
+
+            
+
+            <fieldset>
+
+                <legend><strong>Travel Information</strong></legend>
+
+                <label>Select Destination:</label><br>
+
+                <select>
+                    <option>Paris</option>
+                    <option>Dubai</option>
+                    <option>Bali</option>
+                    <option>Maldives</option>
+                    <option>Tokyo</option>
+                    <option>Cape Town</option>
+                    <option>Santorini</option>
+                    <option>New York</option>
+                </select>
+
+                <br><br>
+
+                <label>Departure Date:</label><br>
+                <input type="date"><br><br>
+
+                <label>Return Date:</label><br>
+                <input type="date"><br><br>
+
+                <label>Number of Adults:</label><br>
+                <input type="number" min="1" max="20"><br><br>
+
+                <label>Number of Children:</label><br>
+                <input type="number" min="0" max="20"><br><br>
+
+            </fieldset>
+
+            <br>
+
+            
+
+            <fieldset>
+
+                <legend><strong>Accommodation</strong></legend>
+
+                <label>Choose Hotel Type:</label><br>
+
+                <input type="radio" name="hotel"> 3-Star Hotel<br>
+                <input type="radio" name="hotel"> 4-Star Hotel<br>
+                <input type="radio" name="hotel"> 5-Star Hotel<br>
+                <input type="radio" name="hotel"> Luxury Resort<br><br>
+
+            </fieldset>
+
+            <br>
+
+            
+
+            <fieldset>
+
+                <legend><strong>Transportation</strong></legend>
+
+                <input type="checkbox"> Flight Ticket<br>
+                <input type="checkbox"> Airport Pickup<br>
+                <input type="checkbox"> Car Rental<br>
+                <input type="checkbox"> Cruise Ship<br>
+                <input type="checkbox"> Train Ticket<br>
+
+            </fieldset>
+
+            <br>
+
+            
+
+            <fieldset>
+
+                <legend><strong>Meal Preference</strong></legend>
+
+                <select>
+
+                    <option>Breakfast Only</option>
+                    <option>Breakfast & Lunch</option>
+                    <option>Breakfast, Lunch & Dinner</option>
+                    <option>Vegetarian Meals</option>
+                    <option>Halal Meals</option>
+                    <option>Vegan Meals</option>
+
+                </select>
+
+            </fieldset>
+
+            <br>
+
+            
+
+            <fieldset>
+
+                <legend><strong>Activities You Prefer</strong></legend>
+
+                <input type="checkbox"> Beach Relaxation<br>
+                <input type="checkbox"> City Tour<br>
+                <input type="checkbox"> Mountain Hiking<br>
+                <input type="checkbox"> Safari Adventure<br>
+                <input type="checkbox"> Scuba Diving<br>
+                <input type="checkbox"> Boat Cruise<br>
+                <input type="checkbox"> Shopping<br>
+                <input type="checkbox"> Museum Visits<br>
+
+            </fieldset>
+
+            <br>
+
+            <!-- Payment -->
+
+            <fieldset>
+
+                <legend><strong>Payment Information</strong></legend>
+
+                <label>Card Holder Name:</label><br>
+                <input type="text"><br><br>
+
+                <label>Card Number:</label><br>
+                <input type="text"><br><br>
+
+                <label>Expiry Date:</label><br>
+                <input type="month"><br><br>
+
+                <label>CVV:</label><br>
+                <input type="password" maxlength="3"><br><br>
+
+            </fieldset>
+
+            <br>
+
+            
+
+            <fieldset>
+
+                <legend><strong>Additional Information</strong></legend>
+
+                <label>Special Requests:</label><br>
+
+                <textarea rows="6" cols="50"
+                placeholder="Enter any additional information here..."></textarea>
+
+            </fieldset>
+
+            <br>
+
+            <!-- Agreement -->
+
+            <fieldset>
+
+                <legend><strong>Terms & Conditions</strong></legend>
+
+                <input type="checkbox" required>
+
+                I confirm that all the information provided is correct,
+                and I agree to the Terms and Conditions of Dream Travel &
+                Adventure Agency.
+
+            </fieldset>
+
+            <br>
+
+            
+
+            <input type="submit" value="Book Now">
+
+            <input type="reset" value="Clear Form">
+
+        </form>
+
+    </main>
+
+    <hr>
+
+    
+
+    <footer>
+
+        <h3>Contact Us</h3>
+
+        <p>
+            <strong>Address:</strong><br>
+            123 Explorer Avenue,<br>
+            Adventure City, CA 90210
+        </p>
+
+        <p>
+            <strong>Phone:</strong><br>
+            +1 (555) 123-4567
+        </p>
+
+        <p>
+            <strong>Email:</strong><br>
+            info@dreamtravelagency.com
+        </p>
+
+        <p>
+            <strong>Office Hours:</strong><br>
+            Monday - Friday: 8:00 AM - 6:00 PM<br>
+            Saturday: 9:00 AM - 4:00 PM<br>
+            Sunday: Closed
+        </p>
+
+        <hr>
+
+        <p>
+            &copy; 2026 Dream Travel & Adventure Agency.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
